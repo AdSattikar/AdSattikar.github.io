@@ -24,9 +24,12 @@
       font-size: 15px;
       height: auto;
     }
+    .intro h2{
+      line-height: 30px;
+    }
     #intro_text{
+        font-size: 25px;
         
-        font-size: 30px;
     }
     .img_container {
       display: none;
@@ -57,7 +60,7 @@
     }
     #portfolio .content .box .proj-img img{
         
-        height: 150px;
+        height: 170px;
         width: 275px;
         
     }
