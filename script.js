@@ -22,15 +22,7 @@ document.querySelectorAll('a').forEach(links => {
 
 });
 
-// const body = document.querySelector('body');
-// const darkToggle = document.querySelector('#dark-toggle');
-
-// darkToggle.addEventListener('click', () => {
-//   body.classList.toggle('dark');
-// });
-
-// const html = document.querySelector('html')
-// const check = document.querySelector('#checkbox')
+// Intro text animation
 let intro_text = document.getElementById('intro_text');
 txt = intro_text.innerText;
 intro_text.innerHTML = "";
@@ -44,12 +36,11 @@ function typ(id, text) {
 }
 typ(intro_text, txt);
 
-let about = document.getElementById('about').firstElementChild
-let portfolio = document.getElementById('portfolio').firstElementChild
-let blog = document.getElementById('blog').firstElementChild
 
+
+// Form Validation
 let btn = document.getElementById("formbtn")
-console.log(btn)
+
 btn.addEventListener('click', () => {
     let name = document.getElementById("fname").value
     let email = document.getElementById("fmail").value
