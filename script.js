@@ -22,6 +22,7 @@ document.querySelectorAll('a').forEach(links => {
 
 });
 
+
 // Intro text animation
 let intro_text = document.getElementById('intro_text');
 txt = intro_text.innerText;
