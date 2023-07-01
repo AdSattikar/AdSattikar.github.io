@@ -31,15 +31,28 @@
         font-size: 25px;
         
     }
+    #intro_description{
+      
+      font-size: 2rem;
+  }
     .img_container {
       display: none;
     }
     .heading{
         font-size: 30px;
     }
-    .about .row-1 .content p{
-        font-size: 15px;
-     }
+    .about .row-1 .content .box-container .skills{
+      width: 140px;
+      font-size: 1.3rem;
+  }
+  .about .row-1 .content .box-container .box .skills .icons{
+    font-size:medium;
+}
+.about .row-1 .content .box-container .box .skills span{
+  
+  font-size: 1.5rem;
+
+}
     .about .row .box .exp-box h3{
         font-size: 15px;
      }
@@ -69,13 +82,10 @@
   /* Media query for screens between 768px and 1023px */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     section{
-        min-height: 50vh;
+        min-height: 40vh;
     }
     /* Navbar */
-    .img_container::after{
-        display: none;
-    }
-    .img_container::before{
+    .img_container{
         display: none;
     }
     #navbar{
@@ -83,6 +93,7 @@
         top: 0;
         left: 0;
         z-index: 100;
+        width: 100vw;
     }
     #navbar a {
       font-size: large;
@@ -91,17 +102,23 @@
     /* Intro section */
     .intro {
       padding: 100px 30px;
-      width: 70%;
+      width: 100%;
       height: auto;
     }
     #intro_text {
       font-size: 50px;
     }
+    #intro_description{
+      
+      font-size: 2rem;
+  }
     #image {
       height: 300px;
       width: 260px;
     }
-    
+    .about .row-1 .content .box-container .box .skills .icons{
+      font-size:medium;
+  }
     #portfolio .content .box .proj-img img{
         margin-top: 20px;
         height: 150px;
