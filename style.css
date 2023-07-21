@@ -382,6 +382,12 @@ section {
     font-family: 'Gentium Book Plus';
     padding: 1rem 0;
 }
+.about .row #certifications .exp-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 
 .about .row .box .exp-box::before {
     content: '';
